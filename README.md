@@ -26,11 +26,11 @@ Este projeto implementa um sistema completo de CRUD para produtos, com backend e
 ## Tecnologias Utilizadas
 
 ### Backend
-- Node.js
+- Node.js 22.17.1  -> [https://nodejs.org/](https://nodejs.org/)
 - Express.js 4.18.2
 - SQLite3 5.1.6
 - CORS 2.8.5
-
+- Nodemon 3.1.10
 ### Frontend
 - React 18.2.0
 - Axios 1.6.2
@@ -81,8 +81,10 @@ projeto/
 │   ├── package.json
 │   ├── src/
 │   │   ├── App.js
-│   │   └── App.css
+│   │   ├── App.css
+│   │   └── index.js
 │   └── public/
+│        └── index.html
 └── README.md
 ```
 
